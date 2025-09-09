@@ -3,7 +3,7 @@
 
 -- === load redzlib (keep your URL) ===
 local ok, redzlib = pcall(function()
-    return loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/Library-ui/refs/heads/main/Redzhubui"))()
+    return loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 end)
 if not ok or not redzlib then
     error("Failed to load redzlib UI. Check URL or executor HTTP access.")
